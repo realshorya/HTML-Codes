@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Arithmetic operations in Javasript</title>
+    </head>
+    <body bgcolor="pink" text="red">
+        <script language="JavaScript">
+            var a,b,c;
+            a=eval(prompt("Enter first Number"));
+            b=eval(prompt("Enter second Number"));
+            c=a+b;
+            document.write("<br>Addition is"+c);
+            c=a-b;
+            document.write("<br>Difference is"+c);
+            c=a*b;
+            document.write("<br>Product is"+c);
+            c=a/b;
+            document.write("<br>Quotient is"+c);
+        </script>
+    </body>
+</html>
